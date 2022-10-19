@@ -33,3 +33,11 @@ for (let i = 0; i < hacker1.length; i++) {
 }
 
 console.log(driver.join(" "));
+
+const nav = [];
+
+for (let i = hacker2.length - 1; i >= 0; i--) {
+  nav[i] = hacker2[i];
+}
+
+console.log(nav.reverse());
