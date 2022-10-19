@@ -34,10 +34,14 @@ for (let i = 0; i < hacker1.length; i++) {
 
 console.log(driver.join(" "));
 
-const nav = [];
+let nav = [];
 
 for (let i = hacker2.length - 1; i >= 0; i--) {
   nav[i] = hacker2[i];
 }
 
-console.log(nav.reverse());
+let nav1 = nav.reverse(); 
+
+console.log("The order reverse is :",nav1.join(""));
+
+
